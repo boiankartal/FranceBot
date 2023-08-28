@@ -11,7 +11,7 @@ from threading import Thread
 #MON AMI
 translate = Translator()
 users = []
-
+print('h')
 akk = ''
 DetectorFactory.seed = 0
 with open('users.json', 'r') as read_users:
